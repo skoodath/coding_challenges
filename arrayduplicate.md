@@ -1,4 +1,4 @@
-# [Array Duplicate](https://github.com/skoodath/coding_challenges/blob/master/arrayduplicate.js)
+# Array Duplicate
 
 Source [Leetcode](https://leetcode.com/problems/contains-duplicate/)
 
@@ -26,16 +26,18 @@ Output: `false`
 
 ### Solution
 
-1. Create a new set from the array which removes duplicates.
-2. Compare the length of the array to the size of the set.
-   - If the comparison returns true, it means there were no duplicates since the nothing was removed from the array while creating the set.
-   - If it returns false, it means, there were duplicate values which were removed while creating the set.
-
 ```JavaScript
 const arrayDuplicate = (arr) => {
   let unique = new Set(arr);
   return arr.length === unique.size;
 };
 ```
+
+> Explanation
+
+1. Create a new set from the array which removes duplicates.
+2. Compare the length of the array to the size of the set.
+   - If the comparison returns true, it means there were no duplicates since nothing was removed from the array while creating the set.
+   - If it returns false, it means, there were duplicate values which were removed while creating the set.
 
 ---
