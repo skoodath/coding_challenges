@@ -16,7 +16,6 @@ Output: `false`
 ```
 Input: nums1 = 2
 Output: `true`
-Explanation: [4,9] is also accepted.
 ```
 
 ---

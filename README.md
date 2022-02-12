@@ -4,3 +4,4 @@
 2. [Subdomain Visit Count](https://github.com/skoodath/coding_challenges/blob/master/subdomainvisitcount.md)
 3. [Array Intersection](https://github.com/skoodath/coding_challenges/blob/master/arrayintersection.md)
 4. [Palindrome](https://github.com/skoodath/coding_challenges/blob/master/palindrome.md)
+5. [Primality](https://github.com/skoodath/coding_challenges/blob/master/primality.md)
