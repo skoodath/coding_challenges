@@ -24,20 +24,28 @@ Output: `false`
 
 ---
 
-### Solution
+### Solution1
 
 ```JavaScript
 const arrayDuplicate = (arr) => {
-  let unique = new Set(arr);
-  return arr.length === unique.size;
+  let unique = new Set(arr); // create a new Set from input array which removes duplicates and retains unique values
+  return arr.length === unique.size; // compare the length of original array to the size of the set. If different, original array had duplicates;
 };
 ```
 
-> Explanation
+### Solution2
 
-1. Create a new set from the array which removes duplicates.
-2. Compare the length of the array to the size of the set.
-   - If the comparison returns true, it means there were no duplicates since nothing was removed from the array while creating the set.
-   - If it returns false, it means, there were duplicate values which were removed while creating the set.
+```JavaScript
+const checkDuplicate = (arr) => {
+  arr.sort(); // sort the input array
+  let len = arr.length;
+  for(let i = 0; i < len; i++){ // run a for loop to iterate through the array
+    if(arr[i] === a[i+1]){ // compare each element to its immediate neighbor to the right and return true if match found
+      return true;
+    }
+  }
+  return false; // else return false after completing the loop
+};
+```
 
 ---
