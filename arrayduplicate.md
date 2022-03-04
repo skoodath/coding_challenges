@@ -56,8 +56,6 @@ const findDuplicate = a => {
         for (let j = i + 1; j < a.length; j++)
             if(a[i] === a[j])
                 return true;
-
-
     return false;
 }
 ```
