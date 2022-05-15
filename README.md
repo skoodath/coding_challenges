@@ -12,4 +12,6 @@
 
 ### [Array Map Implementation](https://github.com/skoodath/coding_challenges/blob/master/implementation/arraymap.md)
 
+### [Array Filter Implementation](https://github.com/skoodath/coding_challenges/blob/master/implementation/arrayfilter.md)
+
 ### [Array Concat Implementation](https://github.com/skoodath/coding_challenges/blob/master/implementation/arrayconcat.md)
