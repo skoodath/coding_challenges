@@ -6,7 +6,7 @@
 
 **Easy**
 
-Given an integer array num, return true if any value appears twice in the array and return false if every element is distint.
+Given an integer array num, return true if any value appears twice in the array and return false if every element is distinct.
 
 ### Example 1
 
